@@ -1,0 +1,335 @@
+#logo>img{
+    height: 60px;
+    display: block;
+    margin: auto;
+}
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+    padding-top: 70px;
+  }
+  .stricky{
+    background-color: white;
+    padding-bottom: 20px;
+  }
+#nav{
+    display:flex;
+    width: 98%;
+    margin: auto;
+    gap: 15px;
+    z-index: 2;
+}
+#box{
+    border: 1px solid rgb(128, 128, 128);
+    height: 40px;
+    width: 15%;
+    
+}
+.dropdown-btn{
+    border: none;
+    font-size: 17px;
+    width: 85%;
+    margin: auto;
+    background-color: white;
+    display: flex;
+}
+.fa-solid{
+    color: rgb(235, 42, 42);
+    margin-top: 6px;
+    font-size: 20px;
+}
+.fa-thin{
+    color: black;
+}
+.select{
+    align-content: center;
+    margin-top: 7px;
+    padding-left: 7px;
+}
+.search-box{
+    border: 1px solid rgb(128, 128, 128);
+    display: flex;
+    width: 45%;
+}
+.search-box>div:nth-child(1){
+    width: 98%;
+    display: flex;
+}
+#search{
+    width: 99%;
+    border: 0px;
+    height: 33px;
+}
+.search-box>div:nth-child(2){
+    width: 7%
+}
+.order{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mid-start1{
+    width: 95%;
+    margin: auto;
+}
+.mid-heading{
+    text-align: center;
+}
+.mid-heading>h2{         
+     font-size: 2.6rem;
+     font-weight: 550;
+     font-family: Arial, Helvetica, sans-serif;
+}
+.card-wrapper{
+display: flex;
+margin: auto;
+width: 90%;
+gap: 15px;
+justify-content: space-between;
+}
+.card1{
+margin: 0 .5em;
+text-align: center;
+transition: 0.3s;
+cursor: pointer;
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.card1:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.card1 img{
+width: 100%;
+}
+.red{
+margin-top: 50px;
+margin-bottom: 50px;
+}
+.red-line{
+width: 100px;
+margin: auto;
+border: 3px solid #ef4e28;
+color:  orangered;
+}
+.jwellery-container{
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    gap: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 36px;
+
+}
+.jwellery-card{
+    width: 80%;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,0.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.jwellery-card:hover{
+    transform:scale(1.1);
+    z-index: 2;
+}
+.jwellery-container img{
+    width: 100%;
+    background-color: white;
+}
+.grey{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    }
+.grey-line{
+    border: 7px solid #28859d84;
+    color:  #3e86987f;
+ }
+ span{
+    font-weight: bold;
+ }
+ #Bottom-description{
+    font-family: Roboto,-apple-system,BlinkMacSystemFont,Helvetica Neue,Segoe UI,sans-serif;
+    width: 95%;
+    font-size: 15px;
+    margin: auto;
+}
+#assurance-container{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    height: 180px;
+}
+#assurance-container>div{
+    width: 25%;
+    text-align: center;
+}
+.assurance{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.fa-light fa-shield-halved{
+    color: #000;
+    background-color: #000;
+}
+.little-description{
+    font-size: 13px;
+    margin-top: 25px;
+    color:  gray;
+    width: 95%;
+    margin: auto;
+}
+.guidelience{
+    background-color: rgba(211, 211, 211, 0.664);
+}
+.guidelience-inner{
+    margin: auto;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+.guidelience-inner>div:nth-child(1){
+    color: red;
+    display: flex;
+    width: 60%;
+    gap: 18px;
+    font-size: 12px;
+    align-items: center;
+}
+.guidelience-inner>div:nth-child(2){
+    width: 20%;
+    align-items: center;
+    color: red;
+    display: flex;
+    justify-content: space-between;
+}
+.payment-method{
+    margin: auto;
+    width: 95%;
+    display: flex;
+    margin-top: 35px;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+#payment-icon{
+    background-color: rgba(211, 211, 211, 0.664);
+}
+.payment-method>div:nth-child(1){
+    width: 30%;
+   
+}
+.payment-method>div:nth-child(1)>img{
+    width: 100%;
+    height: 30px; 
+}
+.payment-method>div:nth-child(2){
+    display: flex;
+    width: 8%;
+    align-items: center;
+    justify-content: space-between;
+}
+.payment-method>div:nth-child(2) span{
+    font-size: 10px;
+}
+.footer-container{
+    padding-top: 30px;
+    width: 95%;
+    margin: auto;
+    padding-bottom: 25px;
+}
+.footer-container>div:nth-child(1)>h4{
+    font-weight: bolder;
+    font-family: Roboto,-apple-system,BlinkMacSystemFont,Helvetica Neue,Segoe UI,sans-serif;
+    font-size: 14px;
+}
+.footer-container>div:nth-child(2){
+    display: grid;
+    padding-top: 15px;
+    font-family: Roboto,-apple-system,BlinkMacSystemFont,Helvetica Neue,Segoe UI,sans-serif;
+    grid-template-columns: repeat(5,1fr);
+    gap: 16px;
+}
+.footer-container>div:nth-child(2)>div{
+    position: relative;
+    cursor: pointer;
+
+}
+.footer-container>div:nth-child(2)>div::after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 4px;
+    width: 45%;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.563);
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+}
+.footer-container>div:nth-child(2)>div:hover::after{
+    transform: scaleX(1);
+}
+
+
+
+/* -------------------------- */
+
+#carousel-container {
+    width: 95%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+#carousel-container > div {
+    width: 100%;
+    margin: 25px 0px;
+}
+
+#c1s1,#c1s2, #c1s3, #c2s1, #c2s2, #c2s3, #c3s1, #c3s2, #c3s3, #c4s1, #c4s2, #c5s1, #c5s2 {
+    display: flex;
+}
+
+.card {
+    width: 8%;
+    margin: 0px 25px;
+    text-align: center;
+    border: 0px;
+    cursor: pointer;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid grey;
+    border-radius: 50%;
+}
+
+.card p {
+    margin-top: 10px;
+}
+
+.card:hover {
+    color: rgba(255, 0, 0, 0.91);
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 35px;
+}
+
+.carousel-control-prev-icon {
+    background-color: rgb(178, 173, 173);
+    position: absolute;
+    left: 0;
+}
+
+.carousel-control-next-icon {
+    background-color: rgb(178, 173, 173);
+    position: absolute;
+    right: 0;
+}

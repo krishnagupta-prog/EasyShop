@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="https://kit.fontawesome.com/e5282033d5.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>EasyShop</title>
+</head>
+<body>
+    
+    <div id="logo">
+        <img src="image/logo1.png" alt="">
+    </div>
+    <div class="stricky" data-spy="affix" data-offset-top="197">
+    <div id="nav">
+        <div id="box">
+           <button class="dropdown-btn">
+            <span class="icon">
+                <i class="fa-solid fa-bars"></i>
+            </span>
+            <div class="select">select By Category</div>
+            
+           </button> 
+        </div>
+        <div class="search-box">
+            <div>
+                <input type="text" id="search" placeholder="Search for a Product, Brand or Category">  
+            </div>
+            <div>
+                <i class="fa-solid fa-magnifying-glass">
+                </i>
+            </div> 
+        </div>
+        <div class="order">
+        <div>
+            <span class="icon"><i class="fa-solid fa-clipboard-list"></i><a href="#">My orders</a></span>
+        </div>
+        <div>
+            <span class="icon"><i class="fa-solid fa-basket-shopping"></i><a href="bag.html">Item in the Bag</a></span>
+        </div>
+        <div>
+            <span class="icon"><i class="fa-solid fa-face-laugh"></i><a href="login.html">Log in/Sign Up</a></span>
+        </div>
+    </div>
+    </div>
+</div>
+    <!-- navbarEnd -->
+   
+    <!-- <--------------------------Sliding part0-------------- -->
+        <div id="carousel-container">
+        <div id="c1">
+            <div id="carouselExampleControlsNoTouching1" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div id="c1s1">
+                        <div class="card" title="Central">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/710342/1620736738312.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Central</p></div>
+                        </div>
+                        <div class="card" title="Myntra">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498075/1593586492547.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Myntra</p></div>
+                        </div>
+                        <div class="card" title="Pantaloon">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498074/1613028372599.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Pantaloon</p></div>
+                        </div>
+                        <div class="card" title="Lifestyle">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498078/1620736180986.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Lifestyle</p></div>
+                        </div>
+                        <div class="card" title="Max Fashion">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498076/1616184425996.png?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Max Fashion</p></div>
+                        </div>
+                        <div class="card" title="U.S.Polo">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498091/1620736830834.png?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>U.S.Polo</p></div>
+                        </div>
+                        <div class="card" title="Brand Factory">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/994845/1643780245028.png?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Brand Factory</p></div>
+                        </div>
+                        <div class="card" title="Levis">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498086/1610536486321.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Levis</p></div>
+                        </div>
+                        <div class="card" title="Only">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498239/1620736478260.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Only</p></div>
+                        </div>
+                        <div class="card" title="Ucb">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498254/1610536539307.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>UCB</p></div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div id="c1s2">
+                        <div class="card" title="Central">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/710342/1620736738312.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Central</p></div>
+                        </div>
+                        <div class="card" title="Myntra">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498075/1593586492547.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Myntra</p></div>
+                        </div>
+                        <div class="card" title="Pantaloon">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498074/1613028372599.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Pantaloon</p></div>
+                        </div>
+                        <div class="card" title="Lifestyle">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498078/1620736180986.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Lifestyle</p></div>
+                        </div>
+                        <div class="card" title="Max Fashion">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498076/1616184425996.png?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Max Fashion</p></div>
+                        </div>
+                        <div class="card" title="U.S.Polo">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498091/1620736830834.png?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>U.S.Polo</p></div>
+                        </div>
+                        <div class="card" title="Brand Factory">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/994845/1643780245028.png?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Brand Factory</p></div>
+                        </div>
+                        <div class="card" title="Levis">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498086/1610536486321.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Levis</p></div>
+                        </div>
+                        <div class="card" title="Only">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498239/1620736478260.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Only</p></div>
+                        </div>
+                        <div class="card" title="Ucb">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498254/1610536539307.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>UCB</p></div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div id="c1s3">
+                        <div class="card" title="Central">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/710342/1620736738312.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Central</p></div>
+                        </div>
+                        <div class="card" title="Myntra">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498075/1593586492547.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Myntra</p></div>
+                        </div>
+                        <div class="card" title="Pantaloon">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498074/1613028372599.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Pantaloon</p></div>
+                        </div>
+                        <div class="card" title="Lifestyle">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498078/1620736180986.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Lifestyle</p></div>
+                        </div>
+                        <div class="card" title="Max Fashion">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498076/1616184425996.png?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Max Fashion</p></div>
+                        </div>
+                        <div class="card" title="U.S.Polo">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498091/1620736830834.png?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>U.S.Polo</p></div>
+                        </div>
+                        <div class="card" title="Brand Factory">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/994845/1643780245028.png?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Brand Factory</p></div>
+                        </div>
+                        <div class="card" title="Levis">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498086/1610536486321.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Levis</p></div>
+                        </div>
+                        <div class="card" title="Only">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498239/1620736478260.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Only</p></div>
+                        </div>
+                        <div class="card" title="Ucb">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498254/1610536539307.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>UCB</p></div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching1" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching1" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        <!-- ---------------------------c2---------------- -->
+        <div id="c2">
+            <div id="carouselExampleControlsNoTouching2" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div id="c2s1">
+                        <div class="card" title="Iconic">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498530/1610537092744.png?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div>
+                                <p>Iconic</p>
+                            </div>
+                        </div>
+                        <div class="card" title="Raymond">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498114/1610537113386.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Raymond</p></div>
+                        </div>
+                        <div class="card" title="Jockey">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498115/1610537339349.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Jockey</p></div>
+                        </div>
+                        <div class="card" title="Vera Moda">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498256/1620736733672.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Vero Moda</p></div>
+                        </div>
+                        <div class="card" title="Baverly Hills">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498129/1613028463583.png?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Baverly</p></div>
+                        </div>
+                        <div class="card" title="Madame">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498127/1610537689405.png?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Madame</p></div>
+                        </div>
+                        <div class="card" title="Peter Enagland">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/710419/1610542731323.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Peter England</p></div>
+                        </div>
+                        <div class="card" title="Van Heusen">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/710420/1610543135214.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Van Heusen</p></div>
+                        </div>
+                        <div class="card" title="Louis philippe">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498111/1610543084890.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Louis philippe</p></div>
+                        </div>
+                        <div class="card" title="Planet Fashion">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/710421/1610543158966.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Planet Fashion</p></div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div id="c2s2">
+                        <div class="card" title="Iconic">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498530/1610537092744.png?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div>
+                                <p>Iconic</p>
+                            </div>
+                        </div>
+                        <div class="card" title="Raymond">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498114/1610537113386.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Raymond</p></div>
+                        </div>
+                        <div class="card" title="Jockey">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498115/1610537339349.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Jockey</p></div>
+                        </div>
+                        <div class="card" title="Vera Moda">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498256/1620736733672.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Vero Moda</p></div>
+                        </div>
+                        <div class="card" title="Baverly Hills">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498129/1613028463583.png?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Baverly</p></div>
+                        </div>
+                        <div class="card" title="Madame">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498127/1610537689405.png?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Madame</p></div>
+                        </div>
+                        <div class="card" title="Peter Enagland">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/710419/1610542731323.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Peter England</p></div>
+                        </div>
+                        <div class="card" title="Van Heusen">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/710420/1610543135214.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Van Heusen</p></div>
+                        </div>
+                        <div class="card" title="Louis philippe">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498111/1610543084890.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Louis philippe</p></div>
+                        </div>
+                        <div class="card" title="Planet Fashion">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/710421/1610543158966.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Planet Fashion</p></div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div id="c2s3">
+                        <div class="card" title="Iconic">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498530/1610537092744.png?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div>
+                                <p>Iconic</p>
+                            </div>
+                        </div>
+                        <div class="card" title="Raymond">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498114/1610537113386.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Raymond</p></div>
+                        </div>
+                        <div class="card" title="Jockey">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498115/1610537339349.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Jockey</p></div>
+                        </div>
+                        <div class="card" title="Vera Moda">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498256/1620736733672.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Vero Moda</p></div>
+                        </div>
+                        <div class="card" title="Baverly Hills">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498129/1613028463583.png?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Baverly</p></div>
+                        </div>
+                        <div class="card" title="Madame">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498127/1610537689405.png?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Madame</p></div>
+                        </div>
+                        <div class="card" title="Peter Enagland">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/710419/1610542731323.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Peter England</p></div>
+                        </div>
+                        <div class="card" title="Van Heusen">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/710420/1610543135214.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Van Heusen</p></div>
+                        </div>
+                        <div class="card" title="Louis philippe">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498111/1610543084890.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Louis philippe</p></div>
+                        </div>
+                        <div class="card" title="Planet Fashion">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/710421/1610543158966.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Planet Fashion</p></div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching2" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching2" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        <!-- ---------------------------------c3------------------- -->
+
+        <div id="c3">
+            <div id="carouselExampleControlsNoTouching3" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div id="c3s1">
+                        <div class="card" title="Bata">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/995524/1643867277967.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Bata</p></div>
+                        </div>
+                        <div class="card" title="Nike">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/995525/1643867496758.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Nike</p></div>
+                        </div>
+                        <div class="card" title="Puma">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/995526/1643867362885.png?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Puma</p></div>
+                        </div>
+                        <div class="card" title="Khadim's">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/995527/1643867532232.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Khadim's</p></div>
+                        </div>
+                        <div class="card" title="Red Chief">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/995528/1643867625370.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Red Chief</p></div>
+                        </div>
+                        <div class="card" title="Speedo">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/710655/1643866806024.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Speedo</p></div>
+                        </div>
+                        <div class="card" title="Sports station">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/995529/1643867506442.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Sports station</p></div>
+                        </div>
+                        <div class="card" title="Woodland">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/995530/1643867664954.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Woodland</p></div>
+                        </div>
+                        <div class="card" title="Metro Shoes">
+                            <div><img src="https://assetscdn1.paytm.com/images/catalog/view_item/710654/1643866837835.jpg?imwidth=140&impolicy=hq" alt=""></div>
+                            <div><p>Metro Shoes</p></div>
+                        </div>
+                        <div class="card" title="Mochi">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/710657/1613028563419.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Mochi</p></div>
+                        </div>
+
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div id="c3s2">
+                        <div class="card" title="Bata">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/995524/1643867277967.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Bata</p></div>
+                        </div>
+                        <div class="card" title="Nike">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/995525/1643867496758.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Nike</p></div>
+                        </div>
+                        <div class="card" title="Puma">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/995526/1643867362885.png?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Puma</p></div>
+                        </div>
+                        <div class="card" title="Khadim's">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/995527/1643867532232.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Khadim's</p></div>
+                        </div>
+                        <div class="card" title="Red Chief">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/995528/1643867625370.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Red Chief</p></div>
+                        </div>
+                        <div class="card" title="Speedo">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/710655/1643866806024.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Speedo</p></div>
+                        </div>
+                        <div class="card" title="Sports station">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/995529/1643867506442.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Sports station</p></div>
+                        </div>
+                        <div class="card" title="Woodland">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/995530/1643867664954.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Woodland</p></div>
+                        </div>
+                        <div class="card" title="Metro Shoes">
+                            <div><img src="https://assetscdn1.paytm.com/images/catalog/view_item/710654/1643866837835.jpg?imwidth=140&impolicy=hq" alt=""></div>
+                            <div><p>Metro Shoes</p></div>
+                        </div>
+                        <div class="card" title="Mochi">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/710657/1613028563419.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Mochi</p></div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div id="c3s3">
+                        <div class="card" title="Bata">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/995524/1643867277967.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Bata</p></div>
+                        </div>
+                        <div class="card" title="Nike">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/995525/1643867496758.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Nike</p></div>
+                        </div>
+                        <div class="card" title="Puma">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/995526/1643867362885.png?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Puma</p></div>
+                        </div>
+                        <div class="card" title="Khadim's">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/995527/1643867532232.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Khadim's</p></div>
+                        </div>
+                        <div class="card" title="Red Chief">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/995528/1643867625370.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Red Chief</p></div>
+                        </div>
+                        <div class="card" title="Speedo">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/710655/1643866806024.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Speedo</p></div>
+                        </div>
+                        <div class="card" title="Sports station">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/995529/1643867506442.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Sports station</p></div>
+                        </div>
+                        <div class="card" title="Woodland">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/995530/1643867664954.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Woodland</p></div>
+                        </div>
+                        <div class="card" title="Metro Shoes">
+                            <div><img src="https://assetscdn1.paytm.com/images/catalog/view_item/710654/1643866837835.jpg?imwidth=140&impolicy=hq" alt=""></div>
+                            <div><p>Metro Shoes</p></div>
+                        </div>
+                        <div class="card" title="Mochi">
+                            <div>
+                                <img src="https://assetscdn1.paytm.com/images/catalog/view_item/710657/1613028563419.jpg?imwidth=140&impolicy=hq" alt="">
+                            </div>
+                            <div><p>Mochi</p></div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching3" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching3" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        </div>
+<!-- cursola part  Groccesry      -->
+    <div class="mid-start1">
+         <div class="mid-heading">
+        <h2>Grocery & Home Furnishing</h2>
+    </div>
+    
+    <div id="carouselExample" class="carousel carouse-dark slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card-wrapper">
+                <div class="card1">
+                    <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498479/1613247367528.png?imwidth=414&impolicy=hq" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h3>Big Bazaar</h3>
+                    </div>
+                  </div>
+                  <div class="card1">
+                    <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498482/1620737072141.png?imwidth=414&impolicy=hq" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h3>Urban Ladder</h3>
+                    </div>
+                  </div>
+                  <div class="card1">
+                    <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498480/1620737097910.jpg?imwidth=414&impolicy=hq" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h3>Home</h3>
+                    </div>
+                  </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card-wrapper">
+                <div class="card1">
+                    <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498484/1610566898069.jpg?imwidth=414&impolicy=hq" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h3>More</h3>
+                    </div>
+                  </div>
+                  <div class="card1">
+                    <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498486/1610567208285.png?imwidth=414&impolicy=hq" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h3>Ratnadeep</h3>
+                    </div>
+                  </div>
+                  <div class="card1">
+                    <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498490/1610567023040.png?imwidth=414&impolicy=hq" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h3>Prestige</h3>
+                    </div>
+                  </div> 
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card-wrapper">
+                <div class="card1">
+                    <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498485/1620737113562.png?imwidth=414&impolicy=hq" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h3>Homecenter</h3>
+                    </div>
+                  </div>
+                  <div class="card1">
+                    <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498490/1610567023040.png?imwidth=414&impolicy=hq" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h3>Big Bazaar</h3>
+                    </div>
+                  </div>
+                  <div class="card1">
+                    <img src="https://assetscdn1.paytm.com/images/catalog/view_item/498484/1610566898069.jpg?imwidth=414&impolicy=hq" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h3>More</h3>
+                    </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="red">
+      <hr class="red-line">
+    </div>
+</div>
+    <!-- Jwellery-part -->
+    <div class="mid-heading">
+        <h2>Jewellery Brand</h2>
+    </div>
+    <div class="jwellery-container">
+        <div class="jwellery-card">
+            <img src="https://assetscdn1.paytm.com/images/catalog/view_item/711188/1613028659969.png?imwidth=414&impolicy=hq" alt="">
+            <h3>Kalyan | Get 20%</h3>
+        </div>
+        <div class="jwellery-card">
+            <img src="https://assetscdn1.paytm.com/images/catalog/view_item/711194/1620745874093.jpg?imwidth=414&impolicy=hq" alt="">
+            <h3>Jewelfina</h3>
+        </div>
+        <div class="jwellery-card">
+            <img src="https://assetscdn1.paytm.com/images/catalog/view_item/711199/1613028660058.jpg?imwidth=414&impolicy=hq" alt="">
+            <h3>Tanishq</h3>
+        </div>
+        <div class="jwellery-card">
+            <img src="https://assetscdn1.paytm.com/images/catalog/view_item/711200/1620745456365.jpg?imwidth=414&impolicy=hq" alt="">
+            <h3>Up to 16% Cashback</h3>
+        </div>
+    </div>
+    <div class="red">
+        <hr class="red-line">
+      </div>
+      <div class="grey">
+        <hr class="grey-line">
+      </div>
+      <!-- Bottom-part -->
+      <div id="Bottom-description">
+        <h2>EasyShop - India’s Leading Online Shopping Experience, Brought to You by EasyShop</h2>
+        <p>Online shopping with EasyShop is quick, convenient and trouble-free. You can shop for the desired product right from the comfort of your home and get them delivered straight to your doorstep.</p>
+        <p>Browse EasyShop and get access to over 65 million products ranging from smartphones, tablets to laptops, sarees, kurtas & kurtis to t-shirts, sneakers, sport shoes to sandals, earrings, watches to fitness bands, chimneys, cookware to gas stoves, dairy products, baby products to makeup kits and many more.</p>
+        
+        <h2>What are we offering on EasyShop.com?</h2>
+        <p>EasyShop strives hard to make your online shopping a more pleasant and cost-effective experience by providing the top quality products at the best price rates in India. Our collection of products consist of electronic appliances, clothes, grocery, home and kitchen products, backpacks, automobiles, books and stationery, to name a few.</p>
+        <p>The super value bazaar offers an extensive range of grocery products like daily food staples, ready to cook food, high on nutrition food, beauty, make-up, personal care, health, baby care products and many more. Also take a look at the latest Automobile section that consists of cars, bikes, scooters, sports bikes, accessories, riding gear and automotive care.</p>
+        <p>Shop by categories, check out all the available deals, limited period offers, cashback offers, seasonal sales, and there is so much more to make your online shopping experience enjoyable & gratifying!</p>
+        
+        <h2>Benefits of shopping on EasyShop.com</h2>
+        <p><span>User-Friendly:</span>Leading online shopping experience in India which is simple and faster to load. Shop on the go and get the products delivered in just a few easy clicks.</p>
+        <p><span>Safe & Secure Shopping:</span>You need not worry about your account credentials or personal details.</p>
+        <ul>
+            <li>Each and every transaction at EasyShop is securely processed and you can be rest assured that your money is in safe hands.</li>
+        </ul>
+        <p><span>Out Closely:</span>View products of your choice in detail with clear images and thorough descriptions before buying</p>
+        <p><span>Multiple Payment Options:</span>Choose a payment option of your choice i.e. Credit/Debit Cards, Netbanking and UPI.</p>
+        <ul>
+            <li>Use EasyShop Wallet for quick checkouts & hassle-free payments</li>
+        </ul>
+       <p><span>EasyShop Postpaid Services:</span>Now, you can buy today and pay next month with EasyShop-ICICI Bank Postpaid.</p>
+       <p><span>Order History:</span>All your orders show up at one place, you can track them or repeat them with ease.</p>  
+       <ul>
+        <li>Trouble-free returns, track request & replacement of your orders</li>
+       </ul>
+       <p><span>Customer Care:</span>For all your queries and concerns regarding your shopping orders, head over to easyshop.com/care or call us at 01204606060 anytime</p>
+       <p>The products paired with amazing deals are a topping on the cake that no one would want to miss. EasyShop World Store offers access to imported products ranging from beauty and personal care, watches, jewellery and so much more that too at exclusive price rates.</p>
+       <p>EasyShop presents benefits like faster delivery with easy returns and payment options. Moreover, you can also take delight in online shopping with cash on delivery (COD) option as & when needed.</p>
+    </div>
+    <!-- bottom-assurance -->
+    <div id="assurance-container">
+        <div class="assurance">
+            <div>
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div>
+                <h5>24x7 Help</h5>
+            </div>
+            <div>
+                <p>Need Help? Click Here. You can also talk to us on 0120 4606060 to resolve your query.</p>
+            </div>
+        </div>
+        <div class="assurance">
+            <div>
+                <i class="fa-solid fa-shield" style="color: black;"></i>
+            </div>
+            <div>
+                <h5>EasyShop Trust</h5>
+            </div>
+            <div>
+                <p>Your money is yours! All refunds come with no question asked guarantee.</p>
+            </div>
+        </div>
+        <div class="assurance">
+            <div>
+                <i class="fa-solid fa-circle-dot" style="color: black;"></i>
+            </div>
+            <div>
+                <h5>100% Assurance</h5>
+            </div>
+            <div>
+                <p>At EasyShop, we provide 100% assurance. If you have any issue, your money is immediately refunded. Sit back and enjoy your shopping.</p>
+            </div>
+        </div>
+        <div class="assurance">
+            <div>
+                <i class="fa-sharp fa-solid fa-lock" style="color: black;"></i>
+            </div>
+            <div>
+                <h5>EasyShop Promise</h5>
+            </div>
+            <div>
+                <p>Products with this tag are quality checked, and shipped the same day from certified warehouses. So you get the right product, faster.</p>
+            </div>
+        </div>
+       
+    </div>
+    <div class="little-description">
+           <p>Cashback would be added as EasyShop Cash, which is One97 Communications Ltd loyalty program. It can be used to pay for goods & services sold by merchants that accept ‘Pay with EasyShop’</p>
+        </div>
+        <!-- Guidlience -->
+    <div class="guidelience">
+        <div class="guidelience-inner">
+            <div>
+                <div>About Us</div>
+                <div>Partner with us</div>
+                <div>Term & Condition</div>
+                <div>Blog</div>
+                <div>Media</div>
+                <div>24x7 Help</div>
+                <div>Grievance policy</div>
+                <div>Bug bounty</div>
+                <div>Return/Cancellation policy</div>
+            </div>
+            <div>
+                <div>
+                    <i class="fa-brands fa-apple"></i>
+                </div>
+                <div>
+                    <i class="fa-brands fa-windows"></i>
+                </div>
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                </div>
+                <div>|</div>
+                <div>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div><i class="fa-brands fa-facebook-f"></i></div>
+                <div><i class="fa-brands fa-instagram"></i></div>
+                <div><i class="fa-brands fa-youtube"></i></div>
+            </div>
+        </div>
+    </div>
+    <!-- payment method -->
+    <div id="payment-icon">
+    <div class="payment-method">
+        <div>
+            <img src="https://bookmyscans.com/media/wysiwyg/verified_logo.png" alt="">
+        </div>
+        <div>
+            <div>
+                <i class="fa-solid fa-wallet" style="color: rgb(81, 81, 134);"></i>
+            </div>
+            <div>
+                <span>Payment Wallet</span>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------------------------------------------------------------------------------------------ -->
+<!-- footer-part -->
+<div class="footer-container">
+    <div>
+        <h4>From Electronics, Fashion to Cars: Buy Everything Online from the Convenience of Your Home from EasyShop</h4>
+    </div>
+    <div>
+        <div><a href="product2.html">All Products</a></div>
+        <div><a href="product.html">Electronics</a></div>
+        <div>Car & bike</div>
+        <div>Super Market</div>
+        <div>Women's Fashion</div>
+        <div>Men's Fashion</div>
+        <div>Home & Kitchen</div>
+        <div>Baby,kids & Toys</div>
+        <div>Car & Bike Accessories</div>
+        <div>Sports 7 Fitness</div>
+        <div>Stationery</div>
+        <div>Travel Card</div>
+    </div>
+</div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

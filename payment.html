@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="https://kit.fontawesome.com/e5282033d5.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    
+    <link rel="stylesheet" href="./style/payment.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>EasyShop</title>
+</head>
+<body>
+    
+    <div id="logo">
+        <img src="image/logo1.png" alt="">
+    </div>
+    <div class="stricky" data-spy="affix" data-offset-top="197">
+    <div id="nav">
+        <div id="box">
+           <button class="dropdown-btn">
+            <span class="icon">
+                <i class="fa-solid fa-bars"></i>
+            </span>
+            <div class="select">select By Category</div>
+            
+           </button> 
+        </div>
+        <div class="search-box">
+            <div>
+                <input type="text" id="search" placeholder="Search for a Product, Brand or Category">  
+            </div>
+            <div>
+                <i class="fa-solid fa-magnifying-glass">
+                </i>
+            </div> 
+        </div>
+        <div class="order">
+        <div>
+            <span class="icon"><i class="fa-solid fa-clipboard-list"></i><a href="index.html">Home</a></span>
+        </div>
+        <div>
+            <span class="icon"><i class="fa-solid fa-basket-shopping"></i><a href="bag.html">Item in the Bag</a></span>
+        </div>
+        <div>
+            <span class="icon"><i class="fa-solid fa-face-laugh"></i><a href="login.html">Log in/Sign Up</a></span>
+        </div>
+    </div>
+    </div>
+</div>
+<div class="container">
+    <form action="">
+
+        <div class="row">
+
+            <div class="col">
+
+                <h3 class="title">billing address</h3>
+
+                <div class="inputBox">
+                    <span>full name :</span>
+                    <input type="text">
+                </div>
+                <div class="inputBox">
+                    <span>email :</span>
+                    <input type="email">
+                </div>
+                <div class="inputBox">
+                    <span>address :</span>
+                    <input type="text">
+                </div>
+                <div class="inputBox">
+                    <span>city :</span>
+                    <input type="text">
+                </div>
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>state :</span>
+                        <input type="text">
+                    </div>
+                    <div class="inputBox">
+                        <span>zip code :</span>
+                        <input type="text" >
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col">
+
+                <h3 class="title">payment</h3>
+
+                <div class="inputBox">
+                    <span>cards accepted :</span>
+                    <img src="https://bookmyscans.com/media/wysiwyg/verified_logo.png" alt="">
+                </div>
+                <div class="inputBox">
+                    <span>Enter UPI address :</span>
+                    <input type="text">
+                </div>
+                <P>OR</P>
+                <div class="inputBox">
+                    <span>Name on card:</span>
+                    <input type="text">
+                </div>
+                <div class="inputBox">
+                    <span>Exp month :</span>
+                    <input type="text">
+                </div>
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>Exp year :</span>
+                        <input type="number">
+                    </div>
+                    <div class="inputBox">
+                        <span>CVV :</span>
+                        <input type="text">
+                    </div>
+                </div>
+
+            </div>
+    
+        </div>
+
+        <button class="payment-btn"><a href="index.html">Proceed to payment</a></button>
+
+    </form>
+
+</div>
+
+
+</body>
+</html>
